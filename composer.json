@@ -11,9 +11,9 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://skola-repo.perigi.my.id",
+      "url": "https://repo.perigi.my.id",
       "only": [
-        "skola/*",
+        "perigiweb/*",
         "perigi/*"
       ]
     }
@@ -21,9 +21,8 @@
   "require": {
     "php": ">=8.0.2",
     "perigiweb/installer": "~1.0.0",
-    "perigiweb/core": "~1.0.1",
+    "perigiweb/core": "~1.0.0",
     "perigiweb/content": "~1.0.0",
-    "perigiweb/gallery": "~1.0.0",
     "perigiweb/theme-admin-tblr": "~1.0.0",
     "perigiweb/theme-frontend-mhmd": "~1.0.0"
   },

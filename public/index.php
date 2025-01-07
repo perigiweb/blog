@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Skola\Core\WebApp;
+use Perigi\Core\WebApp;
 
 define('BASE_PATH', __DIR__);
 define('ASSET_PATH', BASE_PATH . '/assets');
