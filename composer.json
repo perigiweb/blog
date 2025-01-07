@@ -1,0 +1,39 @@
+{
+  "name": "perigiweb/blog",
+  "description": "Just a simple blog engine.",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Perigi Web",
+      "homepage": "https://perigi.my.id/"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://skola-repo.perigi.my.id",
+      "only": [
+        "skola/*",
+        "perigi/*"
+      ]
+    }
+  ],
+  "require": {
+    "php": ">=8.0.2",
+    "perigiweb/installer": "~1.0.0",
+    "perigiweb/core": "~1.0.1",
+    "perigiweb/content": "~1.0.0",
+    "perigiweb/gallery": "~1.0.0",
+    "perigiweb/theme-admin-tblr": "~1.0.0",
+    "perigiweb/theme-frontend-mhmd": "~1.0.0"
+  },
+  "config": {
+    "process-timeout": 0,
+    "vendor-dir": "app/vendor",
+    "allow-plugins": {
+      "perigiweb/installer": true
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

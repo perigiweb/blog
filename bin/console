@@ -1,0 +1,14 @@
+<?php
+
+declare(strict_types=1);
+
+use Skola\Core\ConsoleApp;
+
+define('BASE_PATH', __DIR__);
+define('ASSET_PATH', dirname(__DIR__) . '/public/assets');
+define('APP_PATH', dirname(__DIR__) .  '/app');
+define('VAR_PATH', dirname(__DIR__) . '/var');
+
+require APP_PATH . '/vendor/autoload.php';
+
+ConsoleApp::create()->run();

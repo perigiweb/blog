@@ -1,0 +1,6 @@
+app
+public/assets/uploads/*
+!public/assets/uploads/.gitkeep
+var/*
+!var/.gitkeep
+.env
