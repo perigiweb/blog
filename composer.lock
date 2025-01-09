@@ -1413,12 +1413,12 @@
             "version": "3.8.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/briannesbitt/Carbon.git",
+                "url": "https://github.com/CarbonPHP/carbon.git",
                 "reference": "129700ed449b1f02d70272d2ac802357c8c30c58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/129700ed449b1f02d70272d2ac802357c8c30c58",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/129700ed449b1f02d70272d2ac802357c8c30c58",
                 "reference": "129700ed449b1f02d70272d2ac802357c8c30c58",
                 "shasum": ""
             },
@@ -1620,16 +1620,16 @@
         },
         {
             "name": "perigiweb/content",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:perigiweb/content.git",
-                "reference": "df0cfc8684485dad26f3465347ec8db09911a741"
+                "reference": "e14c7b89f875d52bcdf23bc1cd22d98654bb3712"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/perigiweb/content/zipball/df0cfc8684485dad26f3465347ec8db09911a741",
-                "reference": "df0cfc8684485dad26f3465347ec8db09911a741",
+                "url": "https://api.github.com/repos/perigiweb/content/zipball/e14c7b89f875d52bcdf23bc1cd22d98654bb3712",
+                "reference": "e14c7b89f875d52bcdf23bc1cd22d98654bb3712",
                 "shasum": ""
             },
             "require": {
@@ -1649,23 +1649,23 @@
             ],
             "description": "Content module for skola, this module containt pages, blog post",
             "support": {
-                "source": "https://github.com/perigiweb/content/tree/1.0.0",
+                "source": "https://github.com/perigiweb/content/tree/1.0.1",
                 "issues": "https://github.com/perigiweb/content/issues"
             },
-            "time": "2025-01-06T22:04:51+00:00"
+            "time": "2025-01-08T11:22:53+00:00"
         },
         {
             "name": "perigiweb/core",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:perigiweb/core.git",
-                "reference": "65403bd11bd6965b51526da8dfd94e9d4b1b6cf8"
+                "reference": "a5ea566e07915c426b5664917f8e9b90b88b7769"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/perigiweb/core/zipball/65403bd11bd6965b51526da8dfd94e9d4b1b6cf8",
-                "reference": "65403bd11bd6965b51526da8dfd94e9d4b1b6cf8",
+                "url": "https://api.github.com/repos/perigiweb/core/zipball/a5ea566e07915c426b5664917f8e9b90b88b7769",
+                "reference": "a5ea566e07915c426b5664917f8e9b90b88b7769",
                 "shasum": ""
             },
             "require": {
@@ -1700,10 +1700,10 @@
             ],
             "description": "Core module skola",
             "support": {
-                "source": "https://github.com/perigiweb/core/tree/1.0.0",
+                "source": "https://github.com/perigiweb/core/tree/1.0.2",
                 "issues": "https://github.com/perigiweb/core/issues"
             },
-            "time": "2025-01-06T21:58:44+00:00"
+            "time": "2025-01-08T11:20:32+00:00"
         },
         {
             "name": "perigiweb/installer",
